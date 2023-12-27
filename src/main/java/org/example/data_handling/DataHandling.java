@@ -1,8 +1,9 @@
 package org.example.data_handling;
 
+import org.example.data_handling.filtering.DataFilter;
 import org.example.data_handling.model.House;
 import org.example.data_handling.reader.file.csv.CsvFileReader;
-import org.example.data_handling.writer.DataWriter;
+import org.example.data_handling.writer.CsvFileWriter;
 
 
 import java.util.List;
@@ -15,19 +16,19 @@ public class DataHandling {
 //            System.out.println(house.toString());
 //        }
 
-        List<House> house2bhk = DataWriter.filterList(houses, 2);
-        List<House> house3bhk = DataWriter.filterList(houses, 3);
-        List<House> house4bhk = DataWriter.filterList(houses, 4);
-        List<House> house5bhk = DataWriter.filterList(houses, 5);
+        List<House> house2bhk = DataFilter.filterList(houses, 2);
+        List<House> house3bhk = DataFilter.filterList(houses, 3);
+        List<House> house4bhk = DataFilter.filterList(houses, 4);
+        List<House> house5bhk = DataFilter.filterList(houses, 5);
 
        for (House house : house5bhk){
            System.out.println(house.toString());
        }
 
-    DataWriter.dataWrite( house2bhk,"src/main/resources/bhk/house2bhk.csv");
-    DataWriter.dataWrite( house3bhk,"src/main/resources/bhk/house3bhk.csv");
-    DataWriter.dataWrite( house4bhk,"src/main/resources/bhk/house4bhk.csv");
-    DataWriter.dataWrite( house5bhk,"src/main/resources/bhk/house5bhk.csv");
+    CsvFileWriter.dataWrite( house2bhk,"src/main/resources/bhk/house2bhk.csv");
+    CsvFileWriter.dataWrite( house3bhk,"src/main/resources/bhk/house3bhk.csv");
+    CsvFileWriter.dataWrite( house4bhk,"src/main/resources/bhk/house4bhk.csv");
+    CsvFileWriter.dataWrite( house5bhk,"src/main/resources/bhk/house5bhk.csv");
 
     }
 }
