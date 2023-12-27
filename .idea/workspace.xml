@@ -4,41 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b2357335-c090-4e00-9b9c-e0ecced74f86" name="Changes" comment="houses data handling changes">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/data_handling/CarFileApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/data_handling/model/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/data_handling/reader/file/csv/CarCsvFileReader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/data_handling/writer/csv/CarCsvFileWriter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/file_handling/FileEx1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/file_handling1/FileEx1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/file_handling/FileReadEx1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/file_handling1/FileReadEx1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/file_handling/FileWriteEx1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/file_handling1/FileWriteEx1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/houses_data_handling/FileApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/data_handling/HouseFileApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/houses_data_handling/filtering/DataFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/data_handling/filtering/DataFilter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/houses_data_handling/model/House.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/data_handling/model/House.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/houses_data_handling/reader/DataReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/data_handling/reader/DataReader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/houses_data_handling/reader/file/FileReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/data_handling/reader/file/FileReader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/houses_data_handling/reader/file/csv/CsvFileReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/data_handling/reader/file/csv/CsvFileReader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/houses_data_handling/writer/DataWriter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/data_handling/writer/DataWriter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/houses_data_handling/writer/IFileWriter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/data_handling/writer/IFileWriter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/houses_data_handling/writer/csv/CsvFileWriter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/data_handling/writer/csv/HouseCsvFileWriter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/houses_data_handling/writer/json/JsonFileWriter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/data_handling/writer/json/JsonFileWriter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/bhk/house3bhk.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/bhk/house4bhk.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/bhk/house5bhk.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/car/audi.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/cars/audi.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/car/bmw.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/cars/bmw.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/car/cclass.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/car/focus.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/car/ford.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/cars/ford.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/car/hyundi.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/cars/hyundi.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/car/merc.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/cars/merc.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/car/skoda.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/cars/skoda.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/car/toyota.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/cars/toyota.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/car/unclean cclass.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/car/unclean focus.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/car/vauxhall.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/cars/vauxhall.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/car/vw.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/cars/vw.csv" afterDir="false" />
+    <list default="true" id="b2357335-c090-4e00-9b9c-e0ecced74f86" name="Changes" comment="car file data handling changes">
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/data_handling/HouseFileApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/data_handling/HouseFileApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/data_handling/reader/file/csv/CsvFileReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/data_handling/reader/file/csv/HomeCsvFileReader.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -178,13 +146,22 @@
       <option name="project" value="LOCAL" />
       <updated>1703679321967</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="car file data handling changes">
+      <option name="closed" value="true" />
+      <created>1703709142263</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1703709142263</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="file some changes" />
     <MESSAGE value="houses data handling changes" />
-    <option name="LAST_COMMIT_MESSAGE" value="houses data handling changes" />
+    <MESSAGE value="car file data handling changes" />
+    <option name="LAST_COMMIT_MESSAGE" value="car file data handling changes" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

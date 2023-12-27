@@ -8,10 +8,10 @@ import java.io.File;
 import java.util.ArrayList;
 import java.util.List;
 
-public class CsvFileReader implements FileReader {
+public class HomeCsvFileReader implements FileReader {
     private String path;
 
-    public CsvFileReader(String inputFilePath) {
+    public HomeCsvFileReader(String inputFilePath) {
         this.path = inputFilePath;
     }
 

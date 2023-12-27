@@ -2,7 +2,7 @@ package org.example.data_handling;
 
 import org.example.data_handling.filtering.DataFilter;
 import org.example.data_handling.model.House;
-import org.example.data_handling.reader.file.csv.CsvFileReader;
+import org.example.data_handling.reader.file.csv.HomeCsvFileReader;
 import org.example.data_handling.writer.IFileWriter;
 import org.example.data_handling.writer.csv.HouseCsvFileWriter;
 import org.example.data_handling.writer.json.JsonFileWriter;
@@ -12,7 +12,7 @@ import java.util.List;
 
 public class HouseFileApp {
     public static void main(String[] args) {
-        CsvFileReader reader = new CsvFileReader("src/main/resources/housing_price_dataset.csv");
+        HomeCsvFileReader reader = new HomeCsvFileReader("src/main/resources/housing_price_dataset.csv");
         List<House> houses = reader.read();
 
         IFileWriter fwCsv = new HouseCsvFileWriter();
