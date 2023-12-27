@@ -1,7 +1,7 @@
-package org.example.data_handling.reader.file.csv;
+package org.example.houses_data_handling.reader.file.csv;
 
-import org.example.data_handling.model.House;
-import org.example.data_handling.reader.file.FileReader;
+import org.example.houses_data_handling.model.House;
+import org.example.houses_data_handling.reader.file.FileReader;
 
 import java.io.BufferedReader;
 import java.io.File;

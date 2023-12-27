@@ -1,4 +1,4 @@
-package org.example.data_handling.reader;
+package org.example.houses_data_handling.reader;
 
 import java.util.List;
 

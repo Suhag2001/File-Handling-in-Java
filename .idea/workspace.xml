@@ -4,11 +4,31 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b2357335-c090-4e00-9b9c-e0ecced74f86" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/data_handling/filtering/DataFilter.java" afterDir="false" />
+    <list default="true" id="b2357335-c090-4e00-9b9c-e0ecced74f86" name="Changes" comment="file some changes">
+      <change afterPath="$PROJECT_DIR$/.idea/git_toolbox_prj.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/data_handling/writer/DataWriter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/data_handling/writer/IFileWriter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/data_handling/writer/json/JsonFileWriter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/car/audi.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/car/bmw.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/car/cclass.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/car/focus.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/car/ford.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/car/hyundi.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/car/merc.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/car/skoda.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/car/toyota.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/car/unclean cclass.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/car/unclean focus.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/car/vauxhall.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/car/vw.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/data_handling/DataHandling.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/data_handling/DataHandling.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/data_handling/writer/DataWriter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/data_handling/writer/CsvFileWriter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/data_handling/model/House.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/data_handling/model/House.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/data_handling/writer/CsvFileWriter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/data_handling/writer/csv/CsvFileWriter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/bhk/house2bhk.csv" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,11 +39,16 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Interface" />
+        <option value="package-info" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2ZwSV4Sl2BrT7Vg2Nc8p6RNSV43" />
   <component name="ProjectViewState">
@@ -31,13 +56,14 @@
     <option name="openDirectoriesWithSingleClick" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;E:/Bootcoding/Current- Projects/File-Handling-in-Java/src/main/resources&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "E:/Bootcoding/Current- Projects/File-Handling-in-Java/src/main/resources"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\Bootcoding\Current- Projects\File-Handling-in-Java\src\main\resources" />
@@ -48,7 +74,7 @@
   <component name="RunManager" selected="Application.DataHandling">
     <configuration name="DataHandling" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.data_handling.DataHandling" />
-      <module name="File-Handling-in-Java" />
+      <module name="file-data-apis" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="org.example.data_handling.*" />
@@ -102,19 +128,32 @@
       <option name="presentableId" value="Default" />
       <updated>1703331668513</updated>
     </task>
+    <task id="LOCAL-00001" summary="file some changes">
+      <option name="closed" value="true" />
+      <created>1703671615196</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1703671615196</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="file some changes" />
+    <option name="LAST_COMMIT_MESSAGE" value="file some changes" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/org/example/data_handling/DataHandling.java</url>
-          <line>12</line>
+          <line>14</line>
           <option name="timeStamp" value="3" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/org/example/data_handling/DataHandling.java</url>
-          <line>13</line>
+          <line>15</line>
           <option name="timeStamp" value="4" />
         </line-breakpoint>
       </breakpoints>

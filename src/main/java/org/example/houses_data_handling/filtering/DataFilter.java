@@ -1,6 +1,6 @@
-package org.example.data_handling.filtering;
+package org.example.houses_data_handling.filtering;
 
-import org.example.data_handling.model.House;
+import org.example.houses_data_handling.model.House;
 
 import java.util.List;
 import java.util.stream.Collectors;
