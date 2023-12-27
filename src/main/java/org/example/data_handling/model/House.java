@@ -1,4 +1,4 @@
-package org.example.houses_data_handling.model;
+package org.example.data_handling.model;
 
 import lombok.Builder;
 import lombok.Data;

@@ -1,4 +1,4 @@
-package org.example.houses_data_handling.writer;
+package org.example.data_handling.writer;
 
 import java.util.List;
 

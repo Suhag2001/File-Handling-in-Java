@@ -1,7 +1,7 @@
-package org.example.houses_data_handling.writer.json;
+package org.example.data_handling.writer.json;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
-import org.example.houses_data_handling.writer.IFileWriter;
+import org.example.data_handling.writer.IFileWriter;
 
 import java.io.File;
 import java.io.IOException;

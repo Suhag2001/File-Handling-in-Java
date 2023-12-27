@@ -1,7 +1,7 @@
-package org.example.houses_data_handling.reader.file.csv;
+package org.example.data_handling.reader.file.csv;
 
-import org.example.houses_data_handling.model.House;
-import org.example.houses_data_handling.reader.file.FileReader;
+import org.example.data_handling.model.House;
+import org.example.data_handling.reader.file.FileReader;
 
 import java.io.BufferedReader;
 import java.io.File;
@@ -22,9 +22,7 @@ public class CsvFileReader implements FileReader {
 
     @Override
     public List read() {
-
         File file = new File(path);
-
         try {
             BufferedReader bReader = new BufferedReader(new java.io.FileReader(file));
             String line = bReader.readLine();
