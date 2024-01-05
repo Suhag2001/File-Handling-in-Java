@@ -4,9 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b2357335-c090-4e00-9b9c-e0ecced74f86" name="Changes" comment="car file data handling changes">
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/data_handling/HouseFileApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/data_handling/HouseFileApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/data_handling/reader/file/csv/CsvFileReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/data_handling/reader/file/csv/HomeCsvFileReader.java" afterDir="false" />
+    <list default="true" id="b2357335-c090-4e00-9b9c-e0ecced74f86" name="Changes" comment="some changes">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/bank_managment/BankApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/bank_managment/metrics/MetricsCollector.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/bank_managment/metrics/TransactionByGenderMetrics.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/bank_managment/model/BankTransaction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/bank_managment/reader/TransactionFileReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/bank_managment/split/FileSplit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/bank/bank_transactions1.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/house2bhk.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,15 +50,16 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "E:/Bootcoding/Current- Projects/File-Handling-in-Java/src/main/java/org/example/car_data_handling/reader"
+    "last_opened_file_path": "E:/Bootcoding/Current- Projects/File-Handling-in-Java/src/main/resources/bank"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Bootcoding\Current- Projects\File-Handling-in-Java\src\main\resources\bank" />
+      <recent name="E:\Bootcoding\Current- Projects\File-Handling-in-Java\src\main\java\org\example\bank_managment" />
       <recent name="E:\Bootcoding\Current- Projects\File-Handling-in-Java\src\main\java\org\example\car_data_handling\reader" />
       <recent name="E:\Bootcoding\Current- Projects\File-Handling-in-Java\src\main\resources" />
       <recent name="E:\Bootcoding\Current- Projects\File-Handling-in-Java\src\main\java\org\example\file_handling2" />
-      <recent name="E:\Bootcoding\Current- Projects\File-Handling-in-Java\src\main\java\org\example" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\Bootcoding\Current- Projects\File-Handling-in-Java\src\main\resources\car2" />
@@ -154,14 +163,23 @@
       <option name="project" value="LOCAL" />
       <updated>1703709142263</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="some changes">
+      <option name="closed" value="true" />
+      <created>1703709416856</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1703709416856</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="file some changes" />
     <MESSAGE value="houses data handling changes" />
     <MESSAGE value="car file data handling changes" />
-    <option name="LAST_COMMIT_MESSAGE" value="car file data handling changes" />
+    <MESSAGE value="some changes" />
+    <option name="LAST_COMMIT_MESSAGE" value="some changes" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
